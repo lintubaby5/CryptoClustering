@@ -7,13 +7,21 @@ The Crypto Clustering project aims to predict if cryptocurrencies are affected b
 ## Steps
 
 Load and preprocess the data.
+
 Scale the data using StandardScaler.
+
 Find the best value for k using the elbow method.
+
 Cluster cryptocurrencies with K-means using the original scaled data.
+
 Perform PCA to reduce the features to three principal components.
+
 Find the best value for k using the PCA data.
+
 Cluster cryptocurrencies with K-means using the PCA data.
+
 Visualize and compare the results using hvPlot.
+
 
 ## Output
 
@@ -36,11 +44,9 @@ Scatter plot of CLusters based on PCA Data
 ## Conclusion
 
 Both the models (original and PCA) is best described using 4 clusters. Also in the elbow curve for PCA data the inertia is a little bit steeper than the one for original data.
+
 These three principal components explained 90% of the variance of the cryptocurrencies' returns.
 
 # Tools
 
-Python
-Pandas
-Scikit-Learn
-HvPlot
+Python, Pandas, Scikit-Learn, HvPlot
